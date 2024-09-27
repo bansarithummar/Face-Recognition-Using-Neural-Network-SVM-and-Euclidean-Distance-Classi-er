@@ -55,4 +55,4 @@ H=size(im,1); %Height of the images
 %     title('Test face')
 %     subplot(1,2,2)
 %     imshow(uint8(images(:,:,index)))
-%     ///title('Recognized face')
+%     title('Recognized face')
