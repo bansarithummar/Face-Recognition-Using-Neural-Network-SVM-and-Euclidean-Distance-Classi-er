@@ -9,7 +9,7 @@ H=size(im,1); %Height of the images
     for i=1:75
         images(:,:,i)=facedet(['D:\Data1\face' int2str(i) '.pgm']);
         vec(:,i)=reshape(images(:,:,i),H*W,1);
-    en
+    end
         
     % mean face
     m=sum(vec,2)/75;
