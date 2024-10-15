@@ -23,4 +23,4 @@ for i =1 : 25
             fprintf(1,'%s\n',['class' int2str(j)]);
         end 
     end
-en
+end
