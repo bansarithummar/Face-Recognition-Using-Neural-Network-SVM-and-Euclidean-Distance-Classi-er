@@ -13,7 +13,7 @@ net.trainParam.goal = 0.001;
 net = train(net,P,T);
 for i = 1 : 25
     A(:,i)= facedet(['D:\UG\8 PROJECT\Test\face' int2str(i) '.tiff']);
-end
+en
 Y = Sim(net,A);
 fid = fopen('re1.txt','w+');
 for i =1 : 25
