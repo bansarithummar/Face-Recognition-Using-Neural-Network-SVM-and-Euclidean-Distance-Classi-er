@@ -18,7 +18,7 @@ for i=1:m
     for j=1:n
         LH1(k)= abs(h_cf2(i,j));     
         k=k+1;
-    en
+    end
 end
    LH=sort(LH1,'descend');                  
 ln=25;
