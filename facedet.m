@@ -19,7 +19,7 @@ for i=1:m
         LH1(k)= abs(h_cf2(i,j));     
         k=k+1;
     end
-end
+en
    LH=sort(LH1,'descend');                  
 ln=25;
 max_pk=zeros(ln,1);
