@@ -15,7 +15,7 @@ for i = 1 : 15
     fprintf(fid,'\n');
     end
    x = x +1;
-en
+end
 fclose(fid);
 for i = 1 : 25
     A(:,i)= facedet(['D:\Test\face' int2str(i) '.tiff']);
