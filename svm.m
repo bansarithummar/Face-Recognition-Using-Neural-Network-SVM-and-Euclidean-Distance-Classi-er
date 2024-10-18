@@ -11,7 +11,7 @@ for i = 1 : 15
     for j = 1 : 256
         fprintf(fid,' %d:',j);
         fprintf(fid,'%f',P(j,x));
-    en
+    end
     fprintf(fid,'\n');
     end
    x = x +1;
