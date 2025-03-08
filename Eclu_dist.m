@@ -1,4 +1,4 @@
-im = facedet('D:\Data1\face1.pgm');
+im = facedet('*:\face1.pgm');
 H=size(im,1); %Height of the images
     W=size(im,2); %Width of the images
    % M=size(pgmFiles,1); %Number of images in the training set
@@ -7,7 +7,7 @@ H=size(im,1); %Height of the images
 
     % load the training images
     for i=1:75
-        images(:,:,i)=facedet(['D:\Data1\face' int2str(i) '.pgm']);
+        images(:,:,i)=facedet(['*:\face' int2str(i) '.pgm']);
         vec(:,i)=reshape(images(:,:,i),H*W,1);
     end
         
@@ -27,8 +27,8 @@ H=size(im,1); %Height of the images
     omega=U'*A;
     
   for k = 1: 25  
-    testIm=facedet(['D:\Data1\face' int2str(i) '.pgm']);
-     %testImage = imread('D:\Test\face1.tiff')   
+    testIm=facedet(['*:\face' int2str(i) '.pgm']);
+     %testImage = imread(':\Test\face1.tiff')   
     im1=reshape(testIm,H*W,1);
     imtest=double(im1);
     
