@@ -28,7 +28,7 @@ H=size(im,1); %Height of the images
     
   for k = 1: 25  
     testIm=facedet(['*:\face' int2str(i) '.pgm']);
-     %testImage = imread(':\Test\face1.tiff')   
+     %testImage = imread('*:\face1.tiff')   
     im1=reshape(testIm,H*W,1);
     imtest=double(im1);
     
